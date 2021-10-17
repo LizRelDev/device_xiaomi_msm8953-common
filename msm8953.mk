@@ -356,15 +356,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
 # XiaomiParts
-PRODUCT_PACKAGES += \
-    XiaomiParts \
-    init.xiaomi_parts.rc \
-    init.gpuboost.rc \
-    init.gpuboost.sh \
-    init.cpuboost.rc \
-    init.cpuboost.sh \
-    init.spectrum.rc \
-    init.spectrum.sh
+#PRODUCT_PACKAGES += \
+#    XiaomiParts \
+#    init.xiaomi_parts.rc \
+#    init.gpuboost.rc \
+#    init.gpuboost.sh \
+#    init.cpuboost.rc \
+#    init.cpuboost.sh \
+#    init.spectrum.rc \
+#    init.spectrum.sh
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/msm8953-common/msm8953-common-vendor.mk)
